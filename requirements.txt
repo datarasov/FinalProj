@@ -1,1 +1,1 @@
-These are requirements for the project.
+# These are no special requirements for the project.
