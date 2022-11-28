@@ -16,6 +16,6 @@ def root():
 def predict(item: Item):
     return classifier(item.text)[0]
 
- ---------- INITIAL CODE ---------------
+ # ---------- INITIAL CODE ---------------
  classifier = pipeline("sentiment-analysis", "blanchefort/rubert-base-cased-sentiment")
  classifier("Я обожаю рыбалку!")
