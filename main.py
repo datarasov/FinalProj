@@ -10,7 +10,7 @@ classifier = pipeline("sentiment-analysis", model="blanchefort/rubert-base-cased
 
 @app.get("/")
 def root():
-    return ("message":"DEMO APPLICATION for AI/DevOps course")
+    return ('message':'DEMO APPLICATION for AI/DevOps course')
 
 @app.post("/predict/")
 def predict(item: Item):
